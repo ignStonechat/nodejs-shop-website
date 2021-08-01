@@ -1,0 +1,243 @@
+/* This is the MAIN CSS file with most of the style code. */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #858585;
+}
+
+a {
+    text-decoration: none;
+}
+
+#search {
+    height: 4vh;
+    width: 25vw;
+    margin-top: 2vh;
+    margin-left: 25vw;
+    padding-left: 0.5vw;
+    outline: NONE;
+    border: none;
+    border-radius: 0.2vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 1.25vw;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#search_BTN {
+    width: 5vw;
+    height: 4vh;
+    background-color: #D7D7D7;
+    border: none;
+    margin-top: 2vh;
+    border-top-right-radius: 0.2vw;
+    border-bottom-right-radius: 0.2vw;
+    font-size: 1.25vw;
+    color: #2E2E2E;
+}
+
+#search_BTN:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #cecece;
+}
+
+#website_title {
+    color: white;
+    font-size: 5vh;
+    padding-top: 1.2vh;
+    padding-left: 1vw;
+}
+
+nav {
+    background-color: #D08841;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+}
+
+#cart {
+    width: auto;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-left: 22vw;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
+#signin_BTN {
+    width: 5vw;
+    height: 4vh;
+    background-color: #B6B6B6;
+    border: none;
+    margin-top: 2vh;
+    font-size: 1.25vw;
+    color: #2E2E2E;
+    border-radius: 0.5vw;
+    margin-left: 1vw;
+}
+
+#signin_BTN:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #8a8a8a;
+}
+
+.item_IMG {
+    width: 10vw;
+    background: white;
+    height: 70%;
+}
+
+.shop_item {
+    width: 10vw;
+    height: 25vh;
+    background: #C4C4C4;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0.5vw;
+}
+
+.shop_item:hover {
+    cursor: pointer;
+}
+
+.item_name {
+    font-size: 125%;
+    word-wrap: normal;
+    color: #2E2E2E;
+}
+
+
+
+#shop_items {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.item_spacer {
+    margin-top: 5vh;
+}
+
+
+#addToCart {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    background-color: #E49B57;
+    border: solid;
+    border-color: #ca8b4f;
+    margin-left: 2.5vw;
+}
+
+#addToCart:hover {
+    cursor: pointer;
+}
+
+#description {
+    width: 35vw;
+    height: 80%;
+    background-color: #C4C4C4;
+    padding: 1vw;
+    font-size: 1.5vw;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    border-radius: .5vw;
+}
+
+#itemName {
+    font-size: 2vw;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+
+#itemPrice {
+    font-size: 1.5vw;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+
+#item_img {
+    width: 20vw;
+    height: 40vh;
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+}
+
+#itemDisplay {
+    width: 80vw;
+    height: 40vw;
+    background-color: #B7B7B7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 2vw;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.cart_remove_BTN {
+    font-size: 2vw;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1vw;
+    color: red;
+}
+
+.cart_remove_BTN:hover {
+    cursor: pointer;
+}
+
+.cart_item_name {
+    font-size: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1vw;
+}
+
+.cart_item_img {
+    margin-left: 1vh;
+    margin-top: .75vh;
+    height: 90%;
+}
+
+.cart_item {
+    width: 30vw;
+    height: 15vh;
+    background-color: #464646;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#all_cart {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#totalPrice {
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 3vw;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery.js" defer></script>
+    <script src="./js/notify.js" defer></script>
+    <script src="./js/item.js" defer></script>
+</head>
+<body>
+    <nav>
+        <!-- Left items -->
+        <a href="/"><div id="website_title">SHOP</div></a>
+        <!-- Center items -->
+        <input type="text" id="search" placeholder="Enter text to search" autocomplete="off" >
+        <button id="search_BTN">Search</button>
+        <!-- Right items -->
+        <a href="/cart"><img src="./images/cart.png" alt="CART" id="cart"></a>
+        <button id="signin_BTN">Sign in</button>
+    </nav>
+
+    <div id="itemDisplay">
+        <div class="column">
+            <img src="./images/item_imgs/<%= itemName %>.<%= itemImgFormat %>" alt="" id="item_img">
+            <br>
+            <div id="itemName"><%= itemName %></div>
+            <div id="itemPrice">Price: <%= itemPrice %>$</div>
+            <br>
+            <button id="addToCart">Add To Cart</button>
+        </div>
+
+        <div class="column">
+            <div id="description"><%= itemDesc %></div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

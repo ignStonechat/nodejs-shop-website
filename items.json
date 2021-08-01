@@ -1,0 +1,96 @@
+[
+    {
+        "name": "RING Pro RGB 7.1",
+        "description": "Headphones idk",
+        "price": "25",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3060",
+        "description": "MSI RTX 3060 gpu",
+        "price": "500",
+        "img_format": "jpg"
+    },
+    {
+        "name": "GIGABYTE RTX 3060 TI",
+        "description": "GIGABYTE RTX 3060 TI gpu",
+        "price": "600",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3070 TI",
+        "description": "MSI RTX 3070 TI gpu",
+        "price": "700",
+        "img_format": "png"
+    },
+    {
+        "name": "Glorious Model O",
+        "description": "Glorious Model O Mouse",
+        "price": "50",
+        "img_format": "jpg"
+    },
+
+    
+    {
+        "name": "RING Pro RGB 7.1",
+        "description": "Headphones idk",
+        "price": "25",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3060",
+        "description": "MSI RTX 3060 gpu",
+        "price": "500",
+        "img_format": "jpg"
+    },
+    {
+        "name": "GIGABYTE RTX 3060 TI",
+        "description": "GIGABYTE RTX 3060 TI gpu",
+        "price": "600",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3070 TI",
+        "description": "MSI RTX 3070 TI gpu",
+        "price": "700",
+        "img_format": "png"
+    },
+    {
+        "name": "Glorious Model O",
+        "description": "Glorious Model O Mouse",
+        "price": "50",
+        "img_format": "jpg"
+    },
+
+
+    {
+        "name": "RING Pro RGB 7.1",
+        "description": "Headphones idk",
+        "price": "25",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3060",
+        "description": "MSI RTX 3060 gpu",
+        "price": "500",
+        "img_format": "jpg"
+    },
+    {
+        "name": "GIGABYTE RTX 3060 TI",
+        "description": "GIGABYTE RTX 3060 TI gpu",
+        "price": "600",
+        "img_format": "jpg"
+    },
+    {
+        "name": "MSI RTX 3070 TI",
+        "description": "MSI RTX 3070 TI gpu",
+        "price": "700",
+        "img_format": "png"
+    },
+    {
+        "name": "Glorious Model O",
+        "description": "Glorious Model O Mouse",
+        "price": "50",
+        "img_format": "jpg"
+    }
+]
